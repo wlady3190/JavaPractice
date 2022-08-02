@@ -1,0 +1,21 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package com.desarrollo.parqueadero.proexcepciones;
+
+/**
+ *
+ * @author Wladimir Tierra
+ */
+public class LongitugMail extends Exception {
+
+    public LongitugMail() {
+    }
+
+    public LongitugMail(String mensajeError) {
+        super(mensajeError);
+    }
+
+}
